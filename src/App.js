@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Dictionary from "./dictionary";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="container">
+        <header className="App-header"></header>
+        <main>
+          <h1>Dictionary</h1>
+          <h2>
+            If you want to understand the meaning of the word you should write
+            it and press enter
+          </h2>
+          <Dictionary />
+        </main>
+        <footer className="text-center">Coded by Olena Kravchenko</footer>
+      </div>
     </div>
   );
 }
-
-export default App;

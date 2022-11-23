@@ -13,7 +13,7 @@ export default function App() {
             If you want to understand the meaning of the word you should write
             it and press enter
           </h2>
-          <Dictionary />
+          <Dictionary defaultKeyword="sunset" />
         </main>
         <footer className="text-center">Coded by Olena Kravchenko</footer>
       </div>

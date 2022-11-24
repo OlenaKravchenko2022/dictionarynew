@@ -2,18 +2,29 @@
   background-color: rgb(160, 209, 203);
 }
 .Dictionary section {
-  background: white;
-  padding: 30px;
-  border-radius: 8px;
-  margin: 20px 0;
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 20%);
+  background: rgb(189, 193, 226);
+  padding: 10px;
+  border-radius: 12px;
+  margin: 10px 20px 20px;
+  box-shadow: 15px 15px 20px rgba(12, 11, 11, 0.2);
 }
 .Dictionary input {
   width: 100%;
   padding: 6px 4px;
-  border: 1px solid #ddd;
+  border: 2px solid rgb(54, 42, 82);
 }
-.Dictionary .hints {
-  font-size: 11px;
-  margin-top: 20px;
+.Dictionary .Hints {
+  font-size: 15px;
+  margin-top: 10px;
+  font-style: italic;
+}
+.Dictionary h1 {
+  text-align: center;
+  font-style: italic;
+  color: rgb(55, 23, 85);
+}
+.Dictionary h2 {
+  text-align: center;
+  font-weight: 400;
+  color: rgb(55, 23, 85);
 }

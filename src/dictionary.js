@@ -34,6 +34,11 @@ export default function Dictionary(props) {
   if (loaded) {
     return (
       <div className="Dictionary">
+        <h1>Dictionary</h1>
+        <h2>
+          If you want to understand the meaning of the word you should write it
+          and press enter
+        </h2>
         <section>
           {" "}
           <form onSubmit={handleSubmit}>
@@ -43,7 +48,7 @@ export default function Dictionary(props) {
               defaultValue={props.defaultKeyword}
             />
           </form>
-          <div classNames="hints">
+          <div className="Hints">
             suggested words: strawberry, world, peace...
           </div>
         </section>

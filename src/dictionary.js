@@ -37,7 +37,11 @@ export default function Dictionary(props) {
         <section>
           {" "}
           <form onSubmit={handleSubmit}>
-            <input type="search" onChange={handleKeywordChange} />
+            <input
+              type="search"
+              onChange={handleKeywordChange}
+              defaultValue={props.defaultKeyword}
+            />
           </form>
           <div classNames="hints">
             suggested words: strawberry, world, peace...

@@ -1,5 +1,6 @@
 .Photos img {
   border-radius: 4px;
   margin-bottom: 20px;
-  padding: 2px;
+  padding: 4px;
+  max-width: min-content;
 }

@@ -1,4 +1,5 @@
 .Photos .img-fluid {
   margin: 20px;
+  padding: 2px;
   width: 250px;
 }
